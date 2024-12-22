@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Mandya Technologies</title>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="C:/Users/deepa/OneDrive/Desktop/mt.jpg" alt="Mandya Technologies Logo">
+        </div>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Register.html" class="active">Register</a>
+            <a href="Login.html">Login</a>
+            <a href="#about">About</a>
+            <a href="#converter">Currency Converter</a>
+            <a href="#contact" class="contact-btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <section class="register">
+        <div class="register-container">
+            <h1>Register</h1>
+            <p>Create an account with Mandya Technologies to access advanced stock predictions and more!</p>
+            <form action="submit_registration.php" method="POST">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#"><img src="C:/Users/deepa/OneDrive/Desktop/mt.jpg" alt="Logo" style="width: 50px; height: 50px; border-radius: 25px;"></a>
+                <p>Mandya Technologies was started with a common goal of serving the finance community while<br>
+                    they make transitions. All our team members bring to the table their unique expertise and <br>
+                    experience of stock market which they would like to pass on to future investors.</p>
+            </div>
+            <div class="footer-contact">
+                <i class="fas fa-phone fa-lg"></i>
+                <h3>CONTACT</h3>
+                <p>India Office</p>
+                <p>Mandya Technologies Ltd</p>
+                <p>Mandya, Karnataka, India</p>
+                <p>+91-6363499434</p>
+                <p>support-in@mandyatechnologies.com</p>
+            </div>
+            <div class="footer-map">
+                <img src="C:/Users/deepa/OneDrive/Desktop/mmap.jpg" alt="Location Map">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Stay Connected</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.reddit.com"><i class="fab fa-reddit"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Mandya Technologies Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
